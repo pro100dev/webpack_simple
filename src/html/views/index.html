@@ -1,0 +1,12 @@
+<% var data = {
+  title: "Title",
+  author: "Autor"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+<%= _.template(require('./../includes/hero.html'))(data) %>
+
+<div class="container">
+  Test
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>
